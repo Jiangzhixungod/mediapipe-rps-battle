@@ -1,0 +1,22 @@
+# Local Python environments and generated caches
+game_env/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.log
+
+# Reference manual supplied with the local project
+EAI_BOX*.docx
+
+# Temporary visual checks
+preview_contact.png
+paper_preview.png
